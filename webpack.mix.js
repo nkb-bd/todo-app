@@ -8,4 +8,4 @@ mix.js('src/app.js', 'dist/js')
         processCssUrls: false,
         postCss: [ tailwindcss() ],
     })
-    .copy('src/index.html', 'dist/index.html');
+    .copy('index.html', 'dist/index.html');
